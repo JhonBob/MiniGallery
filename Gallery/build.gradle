@@ -72,5 +72,5 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation rootProject.ext.dependencies["xMaterial"]
-    api 'com.github.JhonBob:MiniCamera:1.0'
+    api 'com.github.JhonBob:MiniCamera:1.1'
 }
